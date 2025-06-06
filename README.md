@@ -19,9 +19,9 @@ This project is a Streamlit web application designed to predict healthcare insur
 ```
 Healthcare-Premium-Prediction/
 ├── Data_Cleaning_&_Exploratory_Analysis_Model/
-│   ├── ml_premium_predict-rest-gr.ipynb  # Jupyter Notebook for the rest group prediction model
+│   ├── ml_premium_predict-rest-gr.ipynb  # Jupyter Notebook with add feature genetical risk
 │   ├── ml_premium_predict-rest.ipynb    # Jupyter Notebook for the rest prediction model
-│   ├── ml_premium_predict-young-gr.ipynb # Jupyter Notebook for young group prediction model
+│   ├── ml_premium_predict-young-gr.ipynb # Jupyter Notebook with add feature genetical risk
 │   ├── ml_premium_predict-young.ipynb   # Jupyter Notebook for young prediction model
 │   ├── premiums_rest.xlsx                # Excel file for data related to the rest group
 │   ├── premiums_young.xlsx               # Excel file for data related to the young group
