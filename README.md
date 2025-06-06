@@ -17,22 +17,35 @@ This project is a Streamlit web application designed to predict healthcare insur
 ## 📁 Project Structure
 
 ```
-healthcare-premium-prediction/
+Healthcare-Premium-Prediction/
+├── Data_Cleaning_&_Exploratory_Analysis_Model/
+│   ├── ml_premium_predict-rest-gr.ipynb  # Jupyter Notebook for the rest group prediction model
+│   ├── ml_premium_predict-rest.ipynb    # Jupyter Notebook for the rest prediction model
+│   ├── ml_premium_predict-young-gr.ipynb # Jupyter Notebook for young group prediction model
+│   ├── ml_premium_predict-young.ipynb   # Jupyter Notebook for young prediction model
+│   ├── premiums_rest.xlsx                # Excel file for data related to the rest group
+│   ├── premiums_young.xlsx               # Excel file for data related to the young group
+│   ├── premiums_young_with_gr.xlsx       # Excel file with additional group data for young
+│   └── premiums.xlsx                     # Excel file for general data
+|
 ├── app/
-│   ├── main.py                     # Main Streamlit application entry point with UI and visualization code
-│   ├── prediction_helper.py        # ML model loading, input preprocessing, prediction logic, and risk scoring
-|   └── artifact/
+│   ├── main.py                          # Main Streamlit application entry point with UI and visualization code
+│   ├── prediction_helper.py             # ML model loading, input preprocessing, prediction logic, and risk scoring
+│   └── artifact/
 │       ├── model_young.joblib          # ML model for young adults (≤25)
 │       ├── model_rest.joblib           # ML model for adults (>25)
 │       ├── scaler_young.joblib         # Data scaler for young adults
 │       └── scaler_rest.joblib          # Data scaler for adults
 |
 ├── images/
-|   ├── app-interface-1.png     # Main dashboard
-│   └── app-interface-2.png     # Prediction results
+│   ├── app-interface-1.png             # Main dashboard
+│   └── app-interface-2.png             # Prediction results
 |
-├── requirements.txt    # Project dependencies
-├── README.md           # Project documentation
+├── LICENSE                            # License for the project
+├── README.md                          # Project documentation
+├── requirements.txt                   # Project dependencies
+
+
 
 ```
 
