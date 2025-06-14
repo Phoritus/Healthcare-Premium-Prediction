@@ -2,6 +2,8 @@
 
 This project is a Streamlit web application designed to predict healthcare insurance premiums based on personal, financial, and health details. The application uses machine learning models—one for young adults (≤25 years) and one for adults (>25 years)—to estimate premiums and applies an explicit insurance plan multiplier to adjust the predicted price accordingly.
 
+🚀 **[Live Demo - Try the App](https://healthcare-premium-predictionaly.streamlit.app)** 🚀
+
 ## 📸 Screenshots
 
 <div align="center">
